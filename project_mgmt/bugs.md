@@ -1,6 +1,6 @@
 #Known Bugs
 
-* Do you want to play? Y/N not listed.
+* Do you want to play? Y/N not listed. FIXED
 * Die immediately, not at termination of loop (add break)
 * 0 zombies, don't lose health
 	* Hit calculation needs significant rework

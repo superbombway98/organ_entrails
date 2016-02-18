@@ -190,7 +190,7 @@ life = 20
 
 while (life > 0):
     print("Life: " + str(life))
-    action = raw_input("What would you like to do now?\n1)Find more zombies\n2)Loot more houses\n3)Leave the city\n4)Check inventory\n5)Change Weapon\n\n")
+    action = raw_input("What would you like to do now?\n1)Find more zombies\n2)Loot more houses\n3)Leave the city\n4)Check inventory\n5)Change Weapon\n6)Clear Screen\n\n")
     if (action == "1"):
         fightZombies(random.randrange(0,10))
         if (life > 0) and zombies !=0:
@@ -203,6 +203,8 @@ while (life > 0):
         checkInventory()
     elif (action == "5"):
         changeWeapon()
+    elif (action == "6":
+      clear
     else:
         print("Invalid input!")
 

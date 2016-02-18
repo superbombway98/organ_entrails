@@ -171,7 +171,7 @@ def changeWeapon():
 print (welcome)
 print ("\nLook, a small horde of zombies approaches! Take this crowbar and go bash some heads!")
 
-ready = raw_input("Ready to fight?\n")
+ready = raw_input("Ready to fight? y/n\n")
 
 if (str.upper(ready) != "Y"):
     print "Too bad, this is Zombietown. You better get ready.\n"

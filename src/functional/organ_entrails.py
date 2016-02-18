@@ -61,12 +61,14 @@ def fightZombies(zombies):
                 print(str(zombies) + " zombies ravaged you. Your life health is now " + str(life))
     elif zombies == 0:
          print ("The zombies have fled because of your presence")
-    else:
+    elif (str.upper(attack) == "A":
         hit = (hitMultiplier[random.randrange(0, len(hitMultiplier))]*weapon[myWeapons[0]]) - zombies
         if hit > 0:
             life = life - hit
         print (str(zombies) + " attack you.\n" "Life health is now " + str(life))
-
+    else:
+      print ("Invalid answer")
+      fightZombies(random.randrange(0,10))
 
 def lootHouse():
     global life
